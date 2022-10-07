@@ -1,0 +1,20 @@
+.container {
+    height: 100vh;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.bg-fondo {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/226/400/large_2x/vector-58387.jpg");
+    background-color: #fff;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg-transparent {
+    background-color: #00000042 !important;
+}

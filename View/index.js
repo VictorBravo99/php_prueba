@@ -7,7 +7,7 @@ function main(busqueda) {
     .then((response) => response.json())
     .then((response) => {
 
-     municipio = response.map((x)=> { let municipio="<p class='ms-2 btn btn-primary' onclick='choice("+x.id+")'>"+x.nombre+"</p>" 
+     municipio = response.map((x)=> { let municipio="<p class='border bg-white p-1 rounded pointer' onclick='choice("+x.id+")'>"+x.nombre+"</p>" 
       return municipio.toString()}).join("")
       cuadro.innerHTML= municipio;
     });
